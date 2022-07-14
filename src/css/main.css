@@ -1,0 +1,8 @@
+.Embed-container{
+    height: 673px;
+    width: 100%;
+  }
+  
+  .Embed-container iframe{
+    border-radius: 0.5rem;
+  }
