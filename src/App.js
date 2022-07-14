@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Report1 from './components/Report1';
 import Report2 from './components/Report2';
+import Error from './components/Error';
 
 function App() {
   return (
