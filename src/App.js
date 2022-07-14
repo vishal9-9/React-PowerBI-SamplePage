@@ -8,12 +8,12 @@ function App() {
   return (
     <Router>
       <nav>
-        <Link to='/'>Report 1</Link>
-        <Link to='/1'>Report 2</Link>
+        <Link to='report/1'>Report 1</Link>
+        <Link to='report/2'>Report 2</Link>
       </nav>
       <Routes>
-        <Route path='/' element={<Report1 />}></Route>
-        <Route path='/1' element={<Report2 />}></Route>
+        <Route path='report/1' element={<Report1 />}></Route>
+        <Route path='report/2' element={<Report2 />}></Route>
         <Route path='*' element={<Error />}></Route>
       </Routes>
     </Router>
