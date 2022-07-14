@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .Embed-container{
     height: 673px;
     width: 100%;
