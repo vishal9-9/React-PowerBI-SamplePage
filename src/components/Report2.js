@@ -4,9 +4,10 @@ import '../css/main.css'
 
 function Report2() {
   return (
-    <div>
+    <div className='wrap-12'>
       <p>Report 2</p>
-      <div>
+      <br />
+      <div className='wrapper-iframe'>
         <PowerBIEmbed
           embedConfig={{
             type: 'report',   // Supported types: report, dashboard, tile, visual and qna
@@ -15,6 +16,7 @@ function Report2() {
           cssClassName="Embed-container"
         />
       </div>
+      <br />
     </div>
   )
 }

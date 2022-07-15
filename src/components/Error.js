@@ -2,7 +2,9 @@ import React from 'react'
 
 function Error() {
   return (
-    <div>Error Page Not Found</div>
+    <div className='justify-content-center'>
+      <p>Please Select a Report.</p>
+    </div>
   )
 }
 
