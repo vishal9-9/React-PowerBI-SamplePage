@@ -127,7 +127,17 @@ nav ul li a {
 .Embed-container {
   height: 673px;
   width: 100%;
+  overflow: hidden;
 }
+
+div.fitToWidthOrigin{
+  height:100% !important
+}
+
+
+/* .Embed-container .fitToWidthOrigin{
+  height: 100% !important;
+} */
 
 .Embed-container iframe {
   border-radius: 0.5rem;
